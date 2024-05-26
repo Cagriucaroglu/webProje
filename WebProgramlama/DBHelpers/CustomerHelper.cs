@@ -19,7 +19,7 @@ namespace WebProgramlama.DBHelpers
                 CustomerId = row.CustomerId,
                 CustomerUserName  = row.Customerusername,
                 Email = row.Email,
-                Password = row.Email
+                    Password = row.Password
             }));
             return response;
         }
